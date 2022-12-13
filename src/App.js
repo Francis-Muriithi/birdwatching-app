@@ -8,12 +8,10 @@ function App() {
   return (
     <Router>
         <div className='main'>
-          <nav className="main">
-          <ul>
-            <li><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/create'} className="nav-link">Add Bird</Link></li>
-            <li><Link to={'/update'} className="nav-link">Update Bird</Link></li>
-          </ul>
+          <nav className='nav'>
+            <button><Link to={'/'} className="nav-link">
+               Home </Link></button>
+            <button><Link to={'/create'} className="nav-link">Add Bird</Link></button>
           </nav>
           <h2 className='main-header'>My Bird Watch</h2>
           <hr />
